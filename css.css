@@ -1,0 +1,132 @@
+.hide {
+  display: none;
+}
+
+.cabecalho {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cabecalho img {
+  max-height: 20vh;
+  margin-top: 5vh;
+  width: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  font-size: x-large;
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.box {
+  color: #000000;
+  position: relative;
+  margin: 20px;
+  width: 100%;
+}
+
+.btn {
+  font-size: x-large;
+}
+
+.card .padding {
+  padding: 15px;
+}
+
+.card.blue {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+footer #logos {
+  max-width: 30%;
+  height: auto;
+  padding: 20px;
+}
+
+footer #footer {
+  width: 100%;
+}
+
+.botao-sortear {
+  background-color: #faea25;
+  color: #2f3057;
+}
+
+.botao-novo-sorteio {
+  background-color: #ffffff;
+  color: #2f3057;
+}
+
+.result-outter {
+  background-color: #2071b7;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.result-inner {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+}
+
+.watermark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  /* Evita interação com a marca d'água */
+  z-index: -1;
+}
+
+.watermark img {
+  width: auto;
+  max-width: 70%;
+  /* Ajusta a largura da marca d'água */
+  max-height: 70%;
+  /* Ajusta a altura da marca d'água */
+  opacity: 0.4;
+  /* Deixa a marca d'água translúcida */
+}
